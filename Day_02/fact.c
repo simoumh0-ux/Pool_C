@@ -4,7 +4,7 @@ int fact(int nb) {
 	return 0;
 	if(nb==0)
 	return 1;
-	
+	if(nb>0)
 		return nb *fact(nb-1);
 	
 }
